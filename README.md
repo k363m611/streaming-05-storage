@@ -1,7 +1,7 @@
 # streaming-05-storage
 
-[![API Reference](https://img.shields.io/badge/API--Utils-datafun--streaming-purple)](https://denisecase.github.io/datafun-streaming/api/)
-[![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
+[![API Reference](https://img.shields.io/badge/API--Utils-datafun--streaming-purple)](https://k363m611.github.io/datafun-streaming/api/)
+[![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://k363m611.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
@@ -44,7 +44,7 @@ You'll work with just these areas:
 ## Instructions
 
 Follow the
-[step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
+[step-by-step workflow guide](https://k363m611.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 to complete:
 
 1. Phase 1. **Start & Run**
@@ -110,11 +110,11 @@ code .
 ### In VS Code Terminal 1: Start Kafka (kafka)
 
 For full instructions see
-[**start kafka**](https://denisecase.github.io/pro-analytics-02/kafka/start-kafka/).
+[**start kafka**](https://k363m611.github.io/pro-analytics-02/kafka/start-kafka/).
 
 If any command fails,
 repeat the steps at
-[**install kafka**](https://denisecase.github.io/pro-analytics-02/kafka/install-kafka/)
+[**install kafka**](https://k363m611.github.io/pro-analytics-02/kafka/install-kafka/)
 until starting up is reliable.
 
 Open a new VS Code terminal. Rename it `kafka`.
@@ -155,7 +155,7 @@ bin/kafka-server-start.sh config/server.properties
 ### In VS Code terminal 2: Create Topic (topics)
 
 For full instructions see
-[**create topic**](https://denisecase.github.io/pro-analytics-02/kafka/create-topic/).
+[**create topic**](https://k363m611.github.io/pro-analytics-02/kafka/create-topic/).
 
 The topic name must match the name defined in your
 `.env` file (copy `.env.example` to `.env`).
@@ -227,7 +227,7 @@ uv run python -m streaming.kafka_consumer_case
 ```
 
 To start fresh, see
-[manage topics](https://denisecase.github.io/pro-analytics-02/kafka/manage-topics/)
+[manage topics](https://k363m611.github.io/pro-analytics-02/kafka/manage-topics/)
 to delete the topic and recreate it.
 
 </details>
