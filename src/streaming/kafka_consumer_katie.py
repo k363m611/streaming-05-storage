@@ -66,7 +66,7 @@ from streaming.data_validation.data_contract_case import (
     SALES_REQUIRED_FIELDS,
     validate_required_fields,
 )
-from streaming.storage.storage_katie import init_db, write_valid_record
+from streaming.storage.storage_case import init_db, write_valid_record
 
 # === CONFIGURE LOGGER ===
 
