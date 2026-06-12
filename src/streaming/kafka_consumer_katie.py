@@ -61,7 +61,7 @@ from dotenv import load_dotenv
 
 from streaming.core.utils import log_env_vars
 from streaming.data_engineering.derived_fields import enrich_message
-from streaming.data_validation.data_contract_katie import (
+from streaming.data_validation.data_contract_case import (
     CONSUMED_FIELDNAMES,
     SALES_REQUIRED_FIELDS,
     validate_required_fields,
