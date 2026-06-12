@@ -89,7 +89,7 @@ ROOT_DIR: Final[Path] = Path.cwd()
 DATA_DIR: Final[Path] = ROOT_DIR / "data"
 OUTPUT_DIR: Final[Path] = DATA_DIR / "output"
 
-OUTPUT_CSV: Final[Path] = OUTPUT_DIR / "consumed_sales.csv"
+OUTPUT_CSV: Final[Path] = OUTPUT_DIR / "consumed_sales_katie.csv"
 OUTPUT_DB: Final[Path] = OUTPUT_DIR / "sales.duckdb"
 
 REGIONS_CSV: Final[Path] = DATA_DIR / "regions.csv"
@@ -400,7 +400,12 @@ def log_summary(
 
 
 def main() -> None:
-    """Main entry point for the Kafka consumer."""
+    """Main entry point for Katie's custom Kafka consumer."""
+    LOG.info("=" * 50)
+    LOG.info("Running Katherine McGaughey custom consumer")
+    LOG.info("Custom output file: consumed_sales_katie.csv")
+    LOG.info("=" * 50)
+
     log_paths()
 
     LOG.info("========================")
